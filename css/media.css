@@ -1,0 +1,70 @@
+@media (max-width: 920px) {
+	.item .mainwrapper{
+		display: block !important;
+	}
+	.item{
+		max-width: 920px;		
+	}
+
+	body > div > div > div.info{
+		display: inline-block;
+		width: 77%;
+	}
+	.preview{
+		position: relative;
+		top: -72px;
+	}	
+	body > div > div > div.price > img{
+		position: absolute;
+		top: 78px;
+		right: 32px;
+	}
+	body > div > div > div.price {
+		width: 100%;
+		margin-top: -44px;
+	}
+}
+
+@media (max-width: 871px) {
+	body > div > div > div.info{
+		width: 73%;
+	}
+}
+@media (max-width: 767px) {
+	body > div > div > div.info{
+		display: block;
+	}
+	body > div > div > div.price {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.preview{
+		top: 0;
+	}	
+	body > div > div > div.info > div.info__items.d-flex.jcsb,
+	body > div > div > div.info > div.tegs.d-flex.jcs{
+		display: block !important;
+	}
+
+	body > div > div > div.info > div.info__items.d-flex.jcsb > div:nth-child(1),
+	body > div > div > div.info > div.info__items.d-flex.jcsb > div:nth-child(2),
+	body > div > div > div.info > div.info__items.d-flex.jcsb > div:nth-child(3){
+		display: inline-flex;
+	}
+	body > div > div > div.info > div.info__items.d-flex.jcsb > div:nth-child(1) > div:nth-child(1),
+	body > div > div > div.info > div.info__items.d-flex.jcsb > div:nth-child(2) > div:nth-child(1),
+	body > div > div > div.info > div.info__items.d-flex.jcsb > div:nth-child(3) > div:nth-child(1){
+		width: 100px;
+	}
+	
+	.tegs__bad {
+		width: 100%;
+		margin: 0;
+		margin-top: 10px;
+		width: 300px;
+	}
+	body > div > div > div.info > div.tegs.d-flex.jcs{
+		width: 100%;
+		max-width: 320px;
+	}
+}

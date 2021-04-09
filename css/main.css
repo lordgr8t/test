@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #e5e5e5 !important;
+	padding: 15px;
+}
+.jcsb{
+	justify-content: space-between;
+}
+.jcs{
+	justify-content: start;
+}
+.item{
+	max-width: 1200px;
+}
+.info .title{
+	font-family: 'Roboto';
+	font-size: 24px;
+	color: #383736;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.info__items__item{
+	margin-right: 50px;
+	margin-bottom: 12px;
+}
+.info__items__item .title{
+	color: #989691;
+	font-size: 12px;
+	font-family: 'Roboto';
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.info__items__item .description{
+	color: #383736;
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 500;
+}
+.tegs__good, .tegs__bad{
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 12px;
+	color: #64B851;
+	background: #F2FAF0;
+	max-width: 184px;
+	text-align: center;
+	border-radius: 22px;
+	height: 32px;
+	cursor: pointer;
+	padding: 5px 10px 0 10px;
+}
+.tegs__good:before{
+	content: url(../img/check.svg);
+	position: relative;
+	top: 3.5px;
+	right: 6px;
+}
+.tegs__bad{
+	background: #FAF0F0;
+	color: #EB4B51;
+	max-width: 249px;
+	margin-left: 20px;
+}
+.tegs__bad:before{
+	content: url(../img/bad_check.svg);
+	position: relative;
+	top: 3.5px;
+	right: 6px;
+}
+.yourprice p, .pricemore p{
+	color: #989691;
+	font-size: 14px;
+	font-family: Roboto;
+}
+.yourprice span{
+	color: #2794DB;
+	font-weight: 500;
+}
+.price .price{
+	color: #383736;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: bold;
+}
+.pricemore span{
+	color: #EB4B51;
+	font-size: 14px;
+	font-weight: 500;
+}
+.buy{
+	color: #383736;
+	font-size: 14px;
+	font-weight: 500;
+	background: #FAC62D;
+	border-radius: 6px;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 28px;
+}
+.buy:before{
+	content: url(../img/key.svg);
+	position: relative;
+	top: 3px;
+	right: 6px;
+}
+body > div > div > div.price{
+	border-left: solid 1px #F0EEEB;
+	padding-left: 30px;
+	width: 28%;
+}
+.item{
+	background: #fff;
+	padding: 24px;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+body > div > div > div.info{
+	width: 50%;
+}
